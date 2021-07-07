@@ -5,8 +5,3 @@ class Person {
     var cpf: String = "123.123.123-10"
     private set
 }
-
-fun main() {
-    val person: Person = Person()
-    println("meu nome é ${person.name}")
-}
