@@ -2,9 +2,10 @@ package one.digitalinnovation.digionebank
 
 import java.math.BigDecimal
 
-class Employee(
+abstract class Employee(
     name: String,
     cpf: String,
     val salary: BigDecimal
 ) : Person(name, cpf) {
+    abstract fun calcStimulus()
 }
